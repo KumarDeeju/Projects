@@ -1,0 +1,19 @@
+Introduction:
+A number guessing game is a simple and fun way to learn about programming and the Java programming language. In this article, we will walk through the process of creating a number guessing game using Java.
+
+Explanation:
+The first step in creating a number guessing game is to generate a random number for the player to guess. In Java, this can be done using the Random class. The nextInt() method of this class generates a random integer between 0 and the specified maximum value. For our game, we want the number to be between 1 and 100, so we will use the following code to generate our random number:
+
+ 
+Random rand = new Random();
+int numberToGuess = rand.nextInt(100) + 1;
+Next, we need to prompt the player to enter their guess. We will use the Scanner class to read the player’s input. The following code initializes the Scanner object and prompts the player to enter their guess:
+
+Scanner scanner = new Scanner(System.in);
+System.out.println("Guess a number between 1 and 100:");
+int guess = scanner.nextInt();
+Now that we have the player’s guess, we can compare it to the randomly generated number. If the player’s guess is too high, we will tell them to try again. If the player’s guess is too low, we will tell them to try again. If the player’s guess is correct, we will congratulate them and end the game.
+
+ 
+
+Finally, we need to close the Scanner object to release any resources it is using. This can be done using the close() method

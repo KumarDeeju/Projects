@@ -1,0 +1,24 @@
+Introduction:
+In this project, we will show how to build a Temperature Convertor using Java. This Temperature Converter allows to convert the temperature in various units like Celsius, Fahrenheit and Kelvin. This is the Command Line user Interface(CLI) based application. This system is build with an easy and simple design with Command Line user Interface. So grab a seat, pour a cup of coffee and start converting temperatures using Temperature Converter!
+
+Explanation:
+This Temperature Converter is a Command Line user Interface that allows you to easily convert the temperatures in various Units like celsius, Fahrenheit and Kelvin. Users may very quickly convert temperatures using this Temperature Converter. The temperature converter has very simple design with options like celsius to Fahrenheit, Fahrenheit to celsius, celsius to Kelvin, Kelvin to celsius, Kelvin to Fahrenheit and Fahrenheit to kelvin. The system converts the temperature and display it to the user.
+
+The user may convert the temperature using the options like celsius to Fahrenheit, Fahrenheit to celsius, celsius to Kelvin, Kelvin to celsius, Kelvin to Fahrenheit and Fahrenheit to kelvin. The system will quickly and accurately convert the temperature and display it to user.
+
+Java is used to build this conversion system. The system makes use of while loop, switch case and scanner class. The system will initially display the option to users such as celsius to Fahrenheit, Fahrenheit to celsius, celsius to Kelvin, Kelvin to celsius, Kelvin to Fahrenheit, Fahrenheit to kelvin and exit. Then asks temperature input value and displays the converted temperature to the user.
+
+Mathematical Formulas Used for Temperature Conversion
+
+To convert the temperature in Celsius to Fahrenheit, “(temperature * 9 / 5) + 32” is used.
+
+To convert the temperature in Fahrenheit to Celsius, “(temperature – 32) * 5 / 9” is used.
+
+To convert the temperature in Celsius to Kelvin, “temperature + 273.15” is used.
+
+To convert the temperature in Kelvin to Fahrenheit, “temperature – 273.15” is used.
+
+To convert the temperature in Kelvin to Celsius, “(temperature – 273.15) * 9 / 5 + 32” is used.
+
+To convert the temperature in Fahrenheit, “(temperature – 32) * 5 / 9 + 273.15;” is used.
+

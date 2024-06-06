@@ -1,0 +1,16 @@
+Abstract:
+The java program for a supermarket billing system. The code prompts the user to enter details about each items they are purchasing, such as the item name, quantity, and price. It then stores this information in an ArrayList of Item objects, which is a custom class defined in the code. The program then enters a while loop, which continues to execute until the user enters “exit” as the item name. After the user exits the while loop, the program prompts the user to enter the tax rate and discount amount. It then calculates the total tax, the final total and displays the subtotal, tax, discount and final total. This program uses java’s ArrayList data structure and user defined class Item to keep track of the items purchased and their details. The program can be easily extended and enhanced to include additional features such as bar code scanning, inventory management, and customer database.
+
+Introduction:
+Supermarket Billing System is an essential part of any retail store that sells items to customers. It is used to calculate the total cost of the items purchased by a customer, including taxes and discounts. In this article, we will be discussing a Java program that implements a basic Supermarket Billing System.
+
+Explanation:
+The program uses a while loop to repeatedly prompt the user to enter details of an item, such as the item name, quantity, and price. It stores this information in an ArrayList of Item objects, which is a custom class defined in the code. The ArrayList of Item objects is useful for creating an inventory system or for printing out a receipt of the items purchased.
+
+The program then prompts the user to enter the tax rate and discount amount. It then calculates the total tax, the final total and displays the subtotal, tax, discount and final total.
+
+The Item class defines a simple object that stores the name, quantity, and price of an item. It has three methods getName(), getQuantity(), getPrice() which are used to retrieve the item’s name, quantity, and price respectively.
+
+The program is relatively simple, but it can be easily extended and enhanced to include additional features such as barcode scanning, inventory management, and customer database.
+
+One of the benefits of using Java for this program is its robustness and scalability. Java is a widely-used, high-level programming language that is suitable for a wide range of applications, including large-scale enterprise systems. It also has a large and active community of developers, making it easy to find solutions to any problems that may arise during the development of the program.

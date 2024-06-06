@@ -1,0 +1,19 @@
+Introduction:
+In this article, we will show how to use the Java Swing library to develop a Stop Watch. This Stop Watch uses a graphical user interface(GUI) to display current time. This stop watch is build using the Java Swing library, which provides a flexible set of components for creating a graphical user interface(GUI). This application has an easy and simple design with Label and buttons to start, stop and reset the timer. Grab a cup of coffee, sit down and start using the Stop Watch.
+
+Explanation:
+This Stop Watch is a Graphical user interface(GUI) application that shows current time to the user using label. The watch updates the elapsed time every second and updates the time label accordingly. Users may very easily use the stop watch with the system’s simple design. The stop watch has simple design label and buttons. The user can enter start and timer, stop the timer and reset the timer to zero.
+
+The users can use three buttons in the application i.e., start, stop and reset button. Start button is used to start the timer, stop button stops the timer and reset button is used to reset the elapsed time to zero.
+
+The Java Swing library which gives a flexible and powerful set of components is used to develop the Stop Watch. The application makes use of Swing components such as JLabel, JButton andJPanel among many other Swing components. Time is set to the JLabel using setText() Method. Timer class is used to start, stop and reset the time.  
+
+Methods used in the project:
+
+actionPerformed():
+
+The action or events of the buttons are handled using this method. Buttons in the stop watch such as start, stop and reset are handled using this method. This method describe how the components should behave after the button is click.
+
+updateTimeLabel():
+
+This method is used to update the elapsed time every second and also updates the time label accordingly.

@@ -1,0 +1,21 @@
+Abstract:
+This program is a Java implementation of a basic scientific calculator that allows the user to perform basic mathematical operations such as addition, subtraction, multiplication, division and exponentiation. The program prompts the user to input two numbers and a desired operation, and then uses a switch statement to perform the appropriate calculation and return the result. The program abstracts the complexity of mathematical operations and provides a simple and user-friendly interface for performing common calculations. This program can be a good starting point for building more advanced calculators with additional features and functionality.
+
+Introduction:
+A simple calculator is a type of electronic calculator that is designed to perform mathematical operations, such as addition,subtraction,multiplication,division. These calculators are commonly used in fields such as engineering, physics, and finance. In this article, we will be discussing a basic scientific calculator program written in Java.
+
+Explanation:
+The program begins by importing the Scanner class, which is used to take user input. The program then prompts the user to enter the first number, the second number, and the desired mathematical operation. The user input is stored in variables num1, num2, and operator respectively. A switch statement is then used to determine which operation to perform based on the value of the operator variable.
+
+The program supports the following mathematical operations:
+
+Addition, represented by the “+” operator
+Subtraction, represented by the “-” operator
+Multiplication, represented by the “*” operator
+Division, represented by the “/” operator
+Exponentiation, represented by the “^” operator
+If the operator entered is not one of the above, the program will print “Invalid operator entered” and exit.
+
+The program then performs the appropriate calculation and stores the result in the variable “result” . For example, if the operator is “+”, the program will add num1 and num2, and if the operator is “^”, program will use Math.pow(num1,num2) method to calculate the result. Finally, the program prints the result to the console for the user to see.
+
+This program provides a simple and user-friendly interface for performing common scientific calculations. It can be a good starting point for building more advanced calculators with additional features and functionality. With this program, you can easily perform various mathematical operations and get the result in no time. This program can be useful in fields such as engineering, physics, and finance where performing mathematical operations is a common task.

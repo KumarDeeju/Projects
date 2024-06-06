@@ -1,0 +1,9 @@
+Introduction:
+Welcome to the Banking Swing Application! This banking application’s graphical user interface (GUI) provides a simple and understandable method for performing deposit and withdrawal operations. It is created using Java’s Swing library, which provides a flexible and powerful set of components for creating graphical user interfaces.  The application has a simple design, with easy-to-use buttons for performing deposit and withdrawal operations, also it updates a current balance after each operation.  This application is the ideal tool for everyone who wants to quickly calculate deposits and withdrawals.  So, relax, pour yourself a cup of coffee, and begin using the banking application to crunch numbers.
+
+Explanation:
+This banking application’s graphical user interface (GUI) provides a simple and understandable method for performing deposit and withdrawal operations. The application has a simple design, with easy-to-use buttons for performing deposit and withdrawal operations, also it updates a current balance after each operation.
+
+Simply enter the desired amount and choose the deposit or withdrawal operation to utilize the banking application. The application will update the balance as per the selected operation, enabling you to quickly and easily estimate multiple deposits and withdrawals.
+
+This application is built using Swing components like JLabel, JButton, and JTextField.  To arrange the components, we used the flow Layout. To handle button events, the ActionListener interface is used. The amount will be added to the balance if the “Deposit” button is clicked, and the balance will be reduced if the “Withdraw” button is clicked.
